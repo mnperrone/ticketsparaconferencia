@@ -1,0 +1,259 @@
+.tickets {
+    color: rgb(39, 185, 39) !important; 
+    text-decoration: none;
+}
+.tickets:hover {
+    text-decoration: none;
+    color:rgb(80, 255, 80) !important;
+}
+/*Section1*/
+.img-ba1 {
+    background-image: url('../img/ba1.jpg');
+    background-size:100% 95%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+}
+
+.txt { font-size: 0.8rem;}
+.cuadroTxt {  /* el cubito de texto "conf bs as" y los links para orador y comprar tickets */
+    padding-top:5rem;
+    margin-left:auto;
+    margin-right:2rem;
+    color:#FFFFFF;
+    width:60vh;
+    height:auto;
+    text-align: right;
+    justify-content: flex-end;
+    filter: drop-shadow(1px 1px 1px rgb(37, 37, 37));
+
+
+}
+.cuadroTxt2 {
+   justify-content: flex-end;
+}
+/* los dos botoncitos para orador y comprar ticket dentro de la img */
+.orador {
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 1.05rem;
+    padding-right: 1.05rem;
+    padding-top:0.4rem;
+    padding-bottom:0.4rem;
+    border-radius: 1.2rem;
+    color:#fff;
+    border: solid #FFFFFF 2px;
+
+}
+
+.orador:hover {
+text-decoration:none;
+
+}
+.transparente {
+    margin-left:0rem;
+}
+.transparente:hover {
+color:#FFFFFF;
+background-color: rgba(252, 177, 65, 0.267);;
+
+}
+.verde {
+    background-color: rgb(43, 165, 6);
+    margin-left:0.2rem;
+}
+.verde:hover {
+    color:#FFFFFF;
+    background-color: rgb(48, 184, 7);
+}
+.botones {
+    list-style-type: none;
+    display:block;
+}
+
+/*Section 2*/
+.mayúsculas {
+    text-transform: uppercase;
+}
+.botPadd {
+    padding-bottom: 20px !important;
+}
+.w-propio {  /* achica un pelito las cards horizontalmente */
+    width: 90% !important;
+    }
+
+.pill {
+     border-radius: 0.2rem;
+      text-decoration: none; 
+      color:#000; 
+      font-weight: bold; 
+      font-size: 0.8rem;
+      padding-left:0.3rem; 
+      padding-right:0.3rem;
+      padding-top:0.2rem;
+      padding-bottom: 0.2rem;
+    
+    }
+.amarilla { background-color: #fec106;}
+.amarilla:hover { color:#000; background-color: rgba(255, 238, 0, 0.822);}
+
+.gris { background-color: #6c757e; color:#fff;}
+.gris:hover { color:#fff; background-color: rgba(88, 88, 88, 0.637);}
+
+.celeste { background-color: #17a2b7; color:#fff;}
+.celeste:hover {color:#fff; background-color: rgba(20, 143, 131, 0.815);}
+
+.roja { background-color: #dc3546; color:#fff;}
+.roja:hover {color:#fff; background-color: rgba(255, 0, 0, 0.568);}
+
+/************** PANTALLA DIVIDIDA FOTO / TEXTO  *******************************/
+         
+.panDividida {
+   width: 100%;
+   height:500px;
+    display:flex;
+    margin:0em !important;
+}
+.foto{
+    background-image: url('../img/honolulu.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+   /* height: 75%; */
+    float: left;
+}
+
+.panDividida-txt {
+    
+    color:#FFFFFF;
+    background-color: hsl(213deg 9% 23%);
+    width: 50%;
+   /* height: 75% !important; */
+    padding-top:1rem;
+    padding-left:1rem;
+    margin-right:0.2rem;
+   
+}
+
+.panDividida-btn {
+    color:#FFFFFF;
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-width: 0.1rem;
+    border-radius: 1.2rem;
+    text-decoration: none; 
+    font-weight: bold; 
+    font-size: 0.8rem;
+    padding-left:0.5rem; 
+    padding-right:0.5rem;
+    padding-top:0.3rem;
+    padding-bottom: 0.4rem;
+}
+.panDividida-btn:hover { 
+color:#fff;
+background-color: rgba(137, 43, 226, 0.295);
+}
+.panDividida-title {
+    text-transform: uppercase;
+    font-weight:900;
+    font-size: 2.8rem;
+
+}
+/* Estilos del form*/
+.form {
+    padding-top: 10px;
+    width: 70% !important;
+}
+.charlaIgnite {
+    border-bottom: 1px dotted #080808;
+}
+.formBtns {
+    background: green !important;
+    color: white !important;
+}
+/*Estilos del footer*/
+.footer-nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    list-style: none;
+    margin: 0; 
+    background: rgb(21, 60, 73);
+  }
+  .ftrLinks {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .list {
+    float:left;
+    display: block;
+    text-align: center;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    text-decoration: none;
+    background-color: rgb(23, 63, 77) !important;
+  }
+  .list a {
+    background-color: rgb(23, 63, 77) !important;
+      color:#fff;
+      text-decoration: none;
+      font-weight: bold;
+      padding-left:0.8rem;
+      padding-right:0.8rem;
+      padding-top:2rem;
+      padding-bottom:2rem;
+  }
+  .list a:hover { 
+    background-color: rgba(40, 132, 163, 0.555) !important;
+    color:#fff;
+    padding-left:0.8rem;
+    padding-right:0.8rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
+  }
+
+#main-footer {
+    background: #1d3c4e;
+    color: #fff;
+    padding: 2rem;
+}
+  
+#main-footer .nav-link { color: #fff; }
+#main-footer .nav-link:hover { opacity: .7; }
+  
+@media (min-width: 992px) {
+    #main-footer .nav-link span { display: block; }
+}
+
+  /*----Estilos de tickets.html*/
+
+.padTop {
+    padding-top: 7rem;
+}
+
+/* ESTILOS TITULOS
+-------------------------------------------------- */
+
+.titulo-gral {
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+  .titulo-gral span {
+    display: block;
+    font-weight: 700;
+    font-size: 2.2rem;
+  } 
+
+  /* FORMULARIO COMPRAR TICKETS
+-------------------------------------------------- */
+
+#totalPago {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
